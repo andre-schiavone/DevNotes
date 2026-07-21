@@ -49,8 +49,7 @@ Open `index.html` in your browser.
 
 ## Preview
 
-<img width="1919" height="485" alt="image" src="https://github.com/user-attachments/assets/33b2cd8a-6be8-4850-9510-e5374d39a31d" />
-
+<img width="1919" height="530" alt="image" src="https://github.com/user-attachments/assets/e4e68d22-fbeb-43a4-b74b-67f3de5a6b9a" />
 
 ## Project Structure
 
