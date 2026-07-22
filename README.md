@@ -1,19 +1,22 @@
 # DevNotes 📝
 
-A simple note-taking application built with HTML, CSS and JavaScript.
+A responsive note-taking web application built with HTML, CSS and Vanilla JavaScript.
 
-DevNotes allows users to create, organize and manage notes directly in the browser, using LocalStorage for data persistence.
+DevNotes allows users to create, organize and manage notes directly in the browser. All data is stored locally using the LocalStorage API, providing a fast and lightweight experience without requiring a backend.
 
 ## Features
 
-- Create notes dynamically
-- Edit notes directly in the interface
-- Pin important notes
-- Remove notes
-- Search notes in real time
-- Copy note content to clipboard
-- Export notes to CSV
-- Persist data using LocalStorage
+- ✨ Create, edit and delete notes
+- 📌 Pin important notes
+- 🔍 Search notes in real time
+- 📋 Copy note content to the clipboard
+- 📤 Export notes to CSV
+- 💾 Automatically save notes using LocalStorage
+- ⚙️ Customize font size
+- 📑 Switch between one- and two-column layouts
+- 👀 Live settings preview
+- 📱 Responsive interface for mobile devices
+- ♿ Improved accessibility with ARIA labels
 
 ## Technologies
 
@@ -31,41 +34,63 @@ This project was created to practice:
 - Event delegation
 - Dynamic element creation
 - Browser APIs
-- Data persistence
+- LocalStorage persistence
 - JSON serialization
-- File export handling
+- CSS custom properties (variables)
+- Responsive design
+- Accessibility (ARIA)
+- CSV file generation and download
 
 ## How to Run
 
 Clone this repository:
 
-    git clone https://github.com/yourusername/DevNotes.git
+```bash
+git clone https://github.com/yourusername/DevNotes.git
+```
 
 Install dependencies:
 
-    npm install
+```bash
+npm install
+```
 
 Open `index.html` in your browser.
 
 ## Preview
 
-(Add a screenshot here)
+### Desktop
+
+
+### Mobile
+
 
 ## Project Structure
 
-    DevNotes/
-    │
-    ├── index.html
-    ├── css/
-    │   └── styles.css
-    ├── js/
-    │   └── scripts.js
-    ├── package.json
-    ├── package-lock.json
-    └── README.md
+```
+DevNotes/
+│
+├── css/
+│   └── styles.css
+├── js/
+│   └── scripts.js
+├── node_modules/
+├── index.html
+├── package.json
+├── package-lock.json
+└── README.md
+```
 
 ## Future Improvements
 
-- Add categories or tags for notes
-- Improve note organization
-- Add cloud synchronization
+- Add categories or tags
+- Drag and drop notes
+- Note colors/themes
+- Dark/Light mode toggle
+- Cloud synchronization
+- Import notes from CSV
+- Markdown support
+
+## License
+
+This project is available for educational purposes and portfolio use.

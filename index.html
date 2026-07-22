@@ -16,14 +16,44 @@
                 <i class="bi bi-search"></i>
                 <input type="search" id="search-input" placeholder="Search...">
             </div>
-            <button class="export-btn"><i class="bi bi-download"></i>Exportar CSV</button>
+            <button class="export-btn" aria-label="Export CSV"><i class="bi bi-download"></i>Export CSV</button>
         </div>
         <div class="add-note">
             <input type="text" id="notes-input" placeholder="What's on your mind?">
-            <button class="add-btn"><i class="bi bi-plus-circle"></i></button>
+            <button class="add-btn" aria-label="Add note"><i class="bi bi-plus-circle"></i></button>
         </div>
         <div class="notes">
         </div>    
+        <button class="settings" aria-label="Settings"><i class="bi bi-gear-fill"></i></button>
+    </div>
+    <div class="settings-container">
+        <button class="return" aria-label="Return"><i class="bi bi-arrow-left"></i></button>
+        <div class="title"><i class="bi bi-gear-fill"></i>Settings</div>
+        <div class="settings-items">
+            <div class="input-field">
+                <label>Columns:</label>
+                <select id="columns">
+                    <option value="1">1 column</option>
+                    <option value="2">2 columns</option>
+                </select>
+            </div>
+            <div class="input-field">
+                <label>Font size:</label>
+                <input
+                    type="range"
+                    min="12"
+                    max="24"
+                    value="16"
+                    id="font-size"
+                >
+                <span id="font-value">18px</span>
+            </div>
+        </div>
+        <h3>Preview:</h3>
+        <div class="preview">
+            <div class="notes">
+            </div>
+        </div>
     </div>
 </body>
 </html>

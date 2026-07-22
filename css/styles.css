@@ -40,6 +40,49 @@ button{
     background-color: transparent;
 }
 
+.settings-container{
+    padding: 2rem 0;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.settings-container input{
+    width: 12rem;
+}
+
+.settings-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    font-weight: bold;
+}
+
+.input-field{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.obs{
+    color: #999;
+}
+
+.return{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    border: 1px solid #666;
+    border-radius: 1rem;
+}
+
+.return:hover{
+    border: 1px solid #f700ff
+}
+
 button, button i{
     color: #e2e2e2;
     transition: 0.3s;
@@ -76,6 +119,8 @@ button:hover, button:hover i {
 }
 
 .note .hover-buttons{
+    display: flex;
+    flex-direction: column;
     transition: 0.3s;
     opacity: 0;
     pointer-events: none;
@@ -87,8 +132,6 @@ button:hover, button:hover i {
 }
 
 .note:hover .hover-buttons{
-    display: flex;
-    flex-direction: column;
     pointer-events: auto;
     opacity: 1;
 }
@@ -151,3 +194,71 @@ i{  margin: 0.25rem;
     border-radius: 10px;
 }
 
+.settings{
+    display: none;
+}
+
+@media(max-width: 450px){
+    .header{
+        flex-direction: column;
+        padding: 1rem 0;
+        gap: 1rem;
+    }
+    .notes{
+        justify-content: center;
+        gap: 2.5rem;
+        padding: 0.25rem 0.5rem;
+    }
+    .notes.two-columns .note{
+        height: 22vh;
+        width: 22vb;
+        padding: 0.5rem;
+    }
+    .notes.two-columns .hover-buttons{
+        align-items: center;
+        justify-content: space-between;
+        top: -1rem;
+        left: -1rem;
+        height: 26.5vh;
+    }
+    .notes.one-column .note{
+        padding: 0.5rem;
+        height: 40vh;
+        width: 40vb;
+    }
+    .notes.one-column .hover-buttons{
+        align-items: center;
+        justify-content: space-between;
+        top: -1rem;
+        left: -1rem;
+        height: 45vh;
+    }
+    .pin-btn{
+        top: -1.1rem;
+        right: -1.1rem;
+    }
+    .search-container{
+        order: 1;
+        margin-top: 1rem;
+    }
+    .note-text{
+        font-size: 16px;
+    }
+    .settings{
+        display: block;
+        position: absolute;
+        top: 0.5rem;
+        right: 0.5rem;
+    }
+    .settings:hover i{
+        color: #f700ff;
+    }
+
+    :root{
+    --note-font-size: 18px;
+    }
+
+    .note-text{
+        font-size: var(--note-font-size);
+    }
+}
