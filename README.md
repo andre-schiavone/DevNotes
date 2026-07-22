@@ -61,6 +61,7 @@ Open `index.html` in your browser.
 
 ### Desktop
 
+<img width="1919" height="530" alt="image" src="https://github.com/user-attachments/assets/e4e68d22-fbeb-43a4-b74b-67f3de5a6b9a" />
 
 ### Mobile
 
@@ -84,10 +85,8 @@ DevNotes/
 ## Future Improvements
 
 - Add categories or tags
-- Drag and drop notes
 - Note colors/themes
 - Dark/Light mode toggle
-- Cloud synchronization
 - Import notes from CSV
 - Markdown support
 
