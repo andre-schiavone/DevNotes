@@ -61,12 +61,13 @@ Open `index.html` in your browser.
 
 ### Desktop
 
-<img width="1919" height="530" alt="image" src="https://github.com/user-attachments/assets/e4e68d22-fbeb-43a4-b74b-67f3de5a6b9a" />
+<img width="1919" height="948" alt="image" src="https://github.com/user-attachments/assets/17b9570e-3ec9-44f6-ad61-9ebe15d93c32" />
 
 ### Mobile
-<img width="444" height="864" alt="image" src="https://github.com/user-attachments/assets/7651ded6-8e5a-40d2-869d-053bf3c212d8" />
+<img width="445" height="863" alt="image" src="https://github.com/user-attachments/assets/3e29711f-033b-4329-9a23-11e02af5fd85" />
 <img width="446" height="864" alt="image" src="https://github.com/user-attachments/assets/fdfa821b-3877-4e6d-b875-0aac7d34c19c" />
 <img width="444" height="864" alt="image" src="https://github.com/user-attachments/assets/66031f43-71b4-4f81-a6d2-da28e78d36bc" />
+<img width="448" height="859" alt="image" src="https://github.com/user-attachments/assets/05984cab-c88e-4e9d-adb5-bb02c5d1ec65" />
 
 
 ## Project Structure
